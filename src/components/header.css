@@ -5,13 +5,15 @@
 .parents-nav {
   background-color: blue;
   padding: 10px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .li-parents li {
   color: white;
   list-style: none;
   text-decoration: none;
-  padding-right: 12px;
+  padding-right: 7px;
 }
 .night-mode {
   background-color: #222;

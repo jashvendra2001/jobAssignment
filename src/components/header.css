@@ -1,0 +1,17 @@
+.li-parents {
+  display: flex;
+}
+
+.parents-nav {
+  background-color: blue;
+}
+
+.li-parents a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+.night-mode {
+  background-color: #222;
+  color: #fff;
+}

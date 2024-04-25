@@ -1,0 +1,99 @@
+body {
+  font-family: "Times New Roman";
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  position: absolute;
+  left: 50%;
+  top: 22%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  height: 9%;
+  width: 17%;
+  border: 0px;
+  border-radius: 50%;
+  overflow: hidden; /* Hide the overflow of the image */
+}
+
+p {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 3rem; /* Adjust font size for smaller screens */
+}
+
+.p1 {
+  background-image: linear-gradient(red 41%, yellow 30%);
+  position: absolute;
+  top: 120px;
+  left: -6px;
+  font-size: 8rem;
+}
+
+.p2 {
+  background-image: linear-gradient(yellow 41%, red 30%);
+  position: absolute;
+  top: 120px;
+  font-size: 8rem;
+}
+
+@media only screen and (min-width: 600px) {
+  /* Adjust styles for screens smaller than 600px wide (typically mobile devices) */
+  .p1 {
+    background-image: linear-gradient(red 41%, yellow 30%);
+    position: absolute;
+    top: 120px;
+    left: -6px;
+    font-size: 18rem;
+  }
+
+  .p2 {
+    background-image: linear-gradient(yellow 41%, red 30%);
+    position: absolute;
+    top: 120px;
+    font-size: 18rem;
+  }
+
+  img {
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    height: 15%;
+    width: 17%;
+    border: 0px;
+    border-radius: 50%;
+    overflow: hidden; /* Hide the overflow of the image */
+  }
+}
+
+.parents {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: #0c0b0c;
+  z-index: -12;
+}
+
+.container {
+  max-width: 1534px;
+  margin: 12px auto;
+}
+
+.night-mode {
+  background-color: white;
+  color: #fff;
+}
+
+.day-mode {
+  background-color: white;
+}
